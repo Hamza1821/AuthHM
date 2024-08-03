@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://starlust.org/wp-content/uploads/2023/05/exoplanets-in-space-artistic-rendition.webp);
+}
+button{
+    height:90px;
+    width: 200px;
+    color: white;
+    background-color: purple;}
+
+    form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <style>
+        body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://starlust.org/wp-content/uploads/2023/05/exoplanets-in-space-artistic-rendition.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    height:30px;
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: purple;
+    border-radius: 10px;
+    
+}
+
+    form{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        background-color:rgba(255, 255, 255, 0.123);
+        height:400px;
+    width: 300px;
+    padding: 10px;
+    border-radius:10% ;
+    box-shadow: 0 0  5px 3px plum;
+    position: absolute;
+    top: 20%;
+    }
+    input{
+        height:30px;
+    width: 200px;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 0  5px 3px plum;
+    background-color:transparent;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    }
+
+    button:hover{
+        transform: scale(0.9);
+        background-color: rgb(173, 24, 173);
+
+    }
+    </style>
+</head>
+<body>
+     
+    <form action="/logout" method="get">
+        <h1>Hi <%=name%></h1>
+        <button type="submit">Log out</button>
+    </form>
+</body>
+</html>
